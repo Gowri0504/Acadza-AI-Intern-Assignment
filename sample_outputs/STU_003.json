@@ -1,0 +1,282 @@
+{
+    "analyze": {
+        "student_id": "STU_003",
+        "name": "Rohan Gupta",
+        "metrics": {
+            "avg_score": 44.08,
+            "accuracy": 65.56,
+            "total_time_spent_min": 273,
+            "consistency_index": 99.75,
+            "overall_trend": "declining"
+        },
+        "radar_chart": {
+            "labels": [
+                "Rotational Mechanics",
+                "Kinematics",
+                "Coordinate Geometry",
+                "Algebra",
+                "Electrostatics",
+                "Organic Chemistry",
+                "Chemical Bonding",
+                "Calculus",
+                "Probability",
+                "Optics"
+            ],
+            "values": [
+                40.83,
+                40.92,
+                43.33,
+                43.33,
+                42.17,
+                59.0,
+                59.0,
+                37.0,
+                37.0,
+                43.33
+            ]
+        },
+        "weak_topics": [
+            {
+                "chapter": "Calculus",
+                "avg_score": 37.0,
+                "avg_time_per_q": 99.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Probability",
+                "avg_score": 37.0,
+                "avg_time_per_q": 99.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Rotational Mechanics",
+                "avg_score": 40.83,
+                "avg_time_per_q": 95.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Kinematics",
+                "avg_score": 40.92,
+                "avg_time_per_q": 107.5,
+                "consistency": 99.83,
+                "trend": "up"
+            },
+            {
+                "chapter": "Electrostatics",
+                "avg_score": 42.17,
+                "avg_time_per_q": 113.0,
+                "consistency": 97.67,
+                "trend": "up"
+            },
+            {
+                "chapter": "Coordinate Geometry",
+                "avg_score": 43.33,
+                "avg_time_per_q": 104.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Algebra",
+                "avg_score": 43.33,
+                "avg_time_per_q": 104.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Optics",
+                "avg_score": 43.33,
+                "avg_time_per_q": 106.0,
+                "consistency": 100,
+                "trend": "flat"
+            }
+        ],
+        "strong_topics": [],
+        "speed_issues": [],
+        "all_chapters": [
+            {
+                "chapter": "Rotational Mechanics",
+                "avg_score": 40.83,
+                "avg_time_per_q": 95.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Kinematics",
+                "avg_score": 40.92,
+                "avg_time_per_q": 107.5,
+                "consistency": 99.83,
+                "trend": "up"
+            },
+            {
+                "chapter": "Coordinate Geometry",
+                "avg_score": 43.33,
+                "avg_time_per_q": 104.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Algebra",
+                "avg_score": 43.33,
+                "avg_time_per_q": 104.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Electrostatics",
+                "avg_score": 42.17,
+                "avg_time_per_q": 113.0,
+                "consistency": 97.67,
+                "trend": "up"
+            },
+            {
+                "chapter": "Organic Chemistry",
+                "avg_score": 59.0,
+                "avg_time_per_q": 108.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Chemical Bonding",
+                "avg_score": 59.0,
+                "avg_time_per_q": 108.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Calculus",
+                "avg_score": 37.0,
+                "avg_time_per_q": 99.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Probability",
+                "avg_score": 37.0,
+                "avg_time_per_q": 99.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Optics",
+                "avg_score": 43.33,
+                "avg_time_per_q": 106.0,
+                "consistency": 100,
+                "trend": "flat"
+            }
+        ]
+    },
+    "recommend": {
+        "student_id": "STU_003",
+        "plan_summary": "Targeted improvement plan focusing on Calculus and overall declining.",
+        "steps": [
+            {
+                "step": 1,
+                "dost": "concept",
+                "parameters": {},
+                "chapter": "Calculus",
+                "question_ids": [],
+                "reasoning": "Your score in Calculus (37.0%) indicates a conceptual gap.",
+                "message": "Let's start by reinforcing your core understanding of Calculus."
+            },
+            {
+                "step": 2,
+                "dost": "formula",
+                "parameters": {},
+                "chapter": "Calculus",
+                "question_ids": [],
+                "reasoning": "Quick formula recall is essential for solving JEE/NEET problems efficiently.",
+                "message": "Review these key formulas for Calculus before practice."
+            },
+            {
+                "step": 3,
+                "dost": "pickingPower",
+                "parameters": {},
+                "reasoning": "Your accuracy is 65.56%. You need to work on option elimination.",
+                "message": "Let's practice 'Picking Power' to help you identify correct options more reliably."
+            },
+            {
+                "step": 4,
+                "dost": "practiceAssignment",
+                "parameters": {
+                    "difficulty": "easy",
+                    "type_split": {
+                        "type": "object",
+                        "default": {
+                            "scq": 20,
+                            "mcq": 10,
+                            "integer": 5
+                        }
+                    }
+                },
+                "chapter": "Calculus",
+                "question_ids": [
+                    "e139096a6698ae384583036b",
+                    "8da85281cca1885e2f6c5f34",
+                    "5cc15a45451d99e95346080e"
+                ],
+                "reasoning": "Building confidence with easy-level application is the next logical step.",
+                "message": "Now, apply your knowledge with these 5 selected questions from Calculus."
+            },
+            {
+                "step": 5,
+                "dost": "revision",
+                "parameters": {
+                    "alloted_days": 5,
+                    "strategy": {
+                        "type": "integer",
+                        "options": [
+                            1,
+                            2,
+                            3
+                        ],
+                        "default": 1
+                    },
+                    "daily_time_minutes": {
+                        "type": "integer",
+                        "default": 60
+                    }
+                },
+                "reasoning": "You have 8 weak chapters. A structured 5-day revision plan is recommended.",
+                "message": "We've scheduled a comprehensive revision plan for you starting tomorrow."
+            },
+            {
+                "step": 6,
+                "dost": "practiceTest",
+                "parameters": {
+                    "difficulty": {
+                        "type": "string",
+                        "options": [
+                            "easy",
+                            "medium",
+                            "hard"
+                        ],
+                        "default": "easy"
+                    },
+                    "duration_minutes": 45,
+                    "paperPattern": {
+                        "type": "string",
+                        "options": [
+                            "Mains",
+                            "Advanced"
+                        ],
+                        "default": "Mains"
+                    }
+                },
+                "chapter": "Calculus",
+                "question_ids": [
+                    "e139096a6698ae384583036b",
+                    "3e5233f726daca34a615a238",
+                    "8da85281cca1885e2f6c5f34",
+                    "17490a39ef0a6668f40c1851",
+                    "5cc15a45451d99e95346080e",
+                    "4eb587f51a244fdc7e56b183"
+                ],
+                "reasoning": "A final timed evaluation to measure your progress from this study session.",
+                "message": "Final check! Complete this 45-minute test to see how much you've improved."
+            }
+        ]
+    }
+}

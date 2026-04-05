@@ -1,0 +1,262 @@
+{
+    "analyze": {
+        "student_id": "STU_009",
+        "name": "Amit Verma",
+        "metrics": {
+            "avg_score": 41.0,
+            "accuracy": 97.33,
+            "total_time_spent_min": 334,
+            "consistency_index": 99.0,
+            "overall_trend": "improving"
+        },
+        "radar_chart": {
+            "labels": [
+                "Optics",
+                "Kinematics",
+                "Probability",
+                "Calculus",
+                "Heat Transfer",
+                "Rotational Mechanics",
+                "Physical Chemistry",
+                "Organic Chemistry",
+                "Algebra"
+            ],
+            "values": [
+                40.0,
+                40.0,
+                41.0,
+                43.0,
+                42.5,
+                45.0,
+                35.0,
+                35.0,
+                45.0
+            ]
+        },
+        "weak_topics": [
+            {
+                "chapter": "Physical Chemistry",
+                "avg_score": 35.0,
+                "avg_time_per_q": 121.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Organic Chemistry",
+                "avg_score": 35.0,
+                "avg_time_per_q": 121.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Optics",
+                "avg_score": 40.0,
+                "avg_time_per_q": 129.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Kinematics",
+                "avg_score": 40.0,
+                "avg_time_per_q": 126.5,
+                "consistency": 100.0,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Probability",
+                "avg_score": 41.0,
+                "avg_time_per_q": 128.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Heat Transfer",
+                "avg_score": 42.5,
+                "avg_time_per_q": 119.5,
+                "consistency": 95.0,
+                "trend": "down"
+            },
+            {
+                "chapter": "Calculus",
+                "avg_score": 43.0,
+                "avg_time_per_q": 127.0,
+                "consistency": 96.0,
+                "trend": "up"
+            },
+            {
+                "chapter": "Rotational Mechanics",
+                "avg_score": 45.0,
+                "avg_time_per_q": 115.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Algebra",
+                "avg_score": 45.0,
+                "avg_time_per_q": 126.0,
+                "consistency": 100,
+                "trend": "flat"
+            }
+        ],
+        "strong_topics": [],
+        "speed_issues": [],
+        "all_chapters": [
+            {
+                "chapter": "Optics",
+                "avg_score": 40.0,
+                "avg_time_per_q": 129.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Kinematics",
+                "avg_score": 40.0,
+                "avg_time_per_q": 126.5,
+                "consistency": 100.0,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Probability",
+                "avg_score": 41.0,
+                "avg_time_per_q": 128.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Calculus",
+                "avg_score": 43.0,
+                "avg_time_per_q": 127.0,
+                "consistency": 96.0,
+                "trend": "up"
+            },
+            {
+                "chapter": "Heat Transfer",
+                "avg_score": 42.5,
+                "avg_time_per_q": 119.5,
+                "consistency": 95.0,
+                "trend": "down"
+            },
+            {
+                "chapter": "Rotational Mechanics",
+                "avg_score": 45.0,
+                "avg_time_per_q": 115.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Physical Chemistry",
+                "avg_score": 35.0,
+                "avg_time_per_q": 121.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Organic Chemistry",
+                "avg_score": 35.0,
+                "avg_time_per_q": 121.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Algebra",
+                "avg_score": 45.0,
+                "avg_time_per_q": 126.0,
+                "consistency": 100,
+                "trend": "flat"
+            }
+        ]
+    },
+    "recommend": {
+        "student_id": "STU_009",
+        "plan_summary": "Targeted improvement plan focusing on Physical Chemistry and overall improving.",
+        "steps": [
+            {
+                "step": 1,
+                "dost": "concept",
+                "parameters": {},
+                "chapter": "Physical Chemistry",
+                "question_ids": [],
+                "reasoning": "Your score in Physical Chemistry (35.0%) indicates a conceptual gap.",
+                "message": "Let's start by reinforcing your core understanding of Physical Chemistry."
+            },
+            {
+                "step": 2,
+                "dost": "formula",
+                "parameters": {},
+                "chapter": "Physical Chemistry",
+                "question_ids": [],
+                "reasoning": "Quick formula recall is essential for solving JEE/NEET problems efficiently.",
+                "message": "Review these key formulas for Physical Chemistry before practice."
+            },
+            {
+                "step": 3,
+                "dost": "practiceAssignment",
+                "parameters": {
+                    "difficulty": "easy",
+                    "type_split": {
+                        "type": "object",
+                        "default": {
+                            "scq": 20,
+                            "mcq": 10,
+                            "integer": 5
+                        }
+                    }
+                },
+                "chapter": "Physical Chemistry",
+                "question_ids": [],
+                "reasoning": "Building confidence with easy-level application is the next logical step.",
+                "message": "Now, apply your knowledge with these 5 selected questions from Physical Chemistry."
+            },
+            {
+                "step": 4,
+                "dost": "revision",
+                "parameters": {
+                    "alloted_days": 5,
+                    "strategy": {
+                        "type": "integer",
+                        "options": [
+                            1,
+                            2,
+                            3
+                        ],
+                        "default": 1
+                    },
+                    "daily_time_minutes": {
+                        "type": "integer",
+                        "default": 60
+                    }
+                },
+                "reasoning": "You have 9 weak chapters. A structured 5-day revision plan is recommended.",
+                "message": "We've scheduled a comprehensive revision plan for you starting tomorrow."
+            },
+            {
+                "step": 5,
+                "dost": "practiceTest",
+                "parameters": {
+                    "difficulty": {
+                        "type": "string",
+                        "options": [
+                            "easy",
+                            "medium",
+                            "hard"
+                        ],
+                        "default": "easy"
+                    },
+                    "duration_minutes": 45,
+                    "paperPattern": {
+                        "type": "string",
+                        "options": [
+                            "Mains",
+                            "Advanced"
+                        ],
+                        "default": "Mains"
+                    }
+                },
+                "chapter": "Physical Chemistry",
+                "question_ids": [],
+                "reasoning": "A final timed evaluation to measure your progress from this study session.",
+                "message": "Final check! Complete this 45-minute test to see how much you've improved."
+            }
+        ]
+    }
+}

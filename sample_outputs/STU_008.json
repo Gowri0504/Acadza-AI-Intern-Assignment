@@ -1,0 +1,301 @@
+{
+    "analyze": {
+        "student_id": "STU_008",
+        "name": "Deepa Krishnan",
+        "metrics": {
+            "avg_score": 39.12,
+            "accuracy": 92.5,
+            "total_time_spent_min": 524,
+            "consistency_index": 65.0,
+            "overall_trend": "improving"
+        },
+        "radar_chart": {
+            "labels": [
+                "Rotational Mechanics",
+                "Heat Transfer",
+                "Laws of Motion",
+                "Thermodynamics",
+                "Organic Chemistry",
+                "Physical Chemistry",
+                "Chemical Bonding",
+                "Coordinate Geometry",
+                "Algebra",
+                "Electrostatics"
+            ],
+            "values": [
+                39.5,
+                68.0,
+                10.0,
+                36.0,
+                72.0,
+                41.0,
+                10.0,
+                40.0,
+                40.0,
+                36.5
+            ]
+        },
+        "weak_topics": [
+            {
+                "chapter": "Laws of Motion",
+                "avg_score": 10.0,
+                "avg_time_per_q": 114.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Chemical Bonding",
+                "avg_score": 10.0,
+                "avg_time_per_q": 91.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Thermodynamics",
+                "avg_score": 36.0,
+                "avg_time_per_q": 139.5,
+                "consistency": 48.0,
+                "trend": "up"
+            },
+            {
+                "chapter": "Electrostatics",
+                "avg_score": 36.5,
+                "avg_time_per_q": 135.0,
+                "consistency": 49.0,
+                "trend": "down"
+            },
+            {
+                "chapter": "Rotational Mechanics",
+                "avg_score": 39.5,
+                "avg_time_per_q": 146.5,
+                "consistency": 43.0,
+                "trend": "down"
+            },
+            {
+                "chapter": "Coordinate Geometry",
+                "avg_score": 40.0,
+                "avg_time_per_q": 144.5,
+                "consistency": 36.0,
+                "trend": "down"
+            },
+            {
+                "chapter": "Algebra",
+                "avg_score": 40.0,
+                "avg_time_per_q": 144.5,
+                "consistency": 36.0,
+                "trend": "down"
+            },
+            {
+                "chapter": "Physical Chemistry",
+                "avg_score": 41.0,
+                "avg_time_per_q": 136.5,
+                "consistency": 38.0,
+                "trend": "down"
+            }
+        ],
+        "strong_topics": [
+            {
+                "chapter": "Organic Chemistry",
+                "avg_score": 72.0,
+                "avg_time_per_q": 182.0,
+                "consistency": 100,
+                "trend": "flat"
+            }
+        ],
+        "speed_issues": [
+            {
+                "chapter": "Heat Transfer",
+                "avg_score": 68.0,
+                "avg_time_per_q": 188.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Organic Chemistry",
+                "avg_score": 72.0,
+                "avg_time_per_q": 182.0,
+                "consistency": 100,
+                "trend": "flat"
+            }
+        ],
+        "all_chapters": [
+            {
+                "chapter": "Rotational Mechanics",
+                "avg_score": 39.5,
+                "avg_time_per_q": 146.5,
+                "consistency": 43.0,
+                "trend": "down"
+            },
+            {
+                "chapter": "Heat Transfer",
+                "avg_score": 68.0,
+                "avg_time_per_q": 188.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Laws of Motion",
+                "avg_score": 10.0,
+                "avg_time_per_q": 114.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Thermodynamics",
+                "avg_score": 36.0,
+                "avg_time_per_q": 139.5,
+                "consistency": 48.0,
+                "trend": "up"
+            },
+            {
+                "chapter": "Organic Chemistry",
+                "avg_score": 72.0,
+                "avg_time_per_q": 182.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Physical Chemistry",
+                "avg_score": 41.0,
+                "avg_time_per_q": 136.5,
+                "consistency": 38.0,
+                "trend": "down"
+            },
+            {
+                "chapter": "Chemical Bonding",
+                "avg_score": 10.0,
+                "avg_time_per_q": 91.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Coordinate Geometry",
+                "avg_score": 40.0,
+                "avg_time_per_q": 144.5,
+                "consistency": 36.0,
+                "trend": "down"
+            },
+            {
+                "chapter": "Algebra",
+                "avg_score": 40.0,
+                "avg_time_per_q": 144.5,
+                "consistency": 36.0,
+                "trend": "down"
+            },
+            {
+                "chapter": "Electrostatics",
+                "avg_score": 36.5,
+                "avg_time_per_q": 135.0,
+                "consistency": 49.0,
+                "trend": "down"
+            }
+        ]
+    },
+    "recommend": {
+        "student_id": "STU_008",
+        "plan_summary": "Targeted improvement plan focusing on Laws of Motion and overall improving.",
+        "steps": [
+            {
+                "step": 1,
+                "dost": "concept",
+                "parameters": {},
+                "chapter": "Laws of Motion",
+                "question_ids": [],
+                "reasoning": "Your score in Laws of Motion (10.0%) indicates a conceptual gap.",
+                "message": "Let's start by reinforcing your core understanding of Laws of Motion."
+            },
+            {
+                "step": 2,
+                "dost": "formula",
+                "parameters": {},
+                "chapter": "Laws of Motion",
+                "question_ids": [],
+                "reasoning": "Quick formula recall is essential for solving JEE/NEET problems efficiently.",
+                "message": "Review these key formulas for Laws of Motion before practice."
+            },
+            {
+                "step": 3,
+                "dost": "practiceAssignment",
+                "parameters": {
+                    "difficulty": "easy",
+                    "type_split": {
+                        "type": "object",
+                        "default": {
+                            "scq": 20,
+                            "mcq": 10,
+                            "integer": 5
+                        }
+                    }
+                },
+                "chapter": "Laws of Motion",
+                "question_ids": [],
+                "reasoning": "Building confidence with easy-level application is the next logical step.",
+                "message": "Now, apply your knowledge with these 5 selected questions from Laws of Motion."
+            },
+            {
+                "step": 4,
+                "dost": "clickingPower",
+                "parameters": {
+                    "total_questions": {
+                        "type": "integer",
+                        "default": 10
+                    }
+                },
+                "chapter": "Heat Transfer",
+                "question_ids": [],
+                "reasoning": "You're struggling with both speed and accuracy in Heat Transfer. Rapid drills will help.",
+                "message": "Speed Drill! Answer these questions as quickly as possible."
+            },
+            {
+                "step": 5,
+                "dost": "revision",
+                "parameters": {
+                    "alloted_days": 5,
+                    "strategy": {
+                        "type": "integer",
+                        "options": [
+                            1,
+                            2,
+                            3
+                        ],
+                        "default": 1
+                    },
+                    "daily_time_minutes": {
+                        "type": "integer",
+                        "default": 60
+                    }
+                },
+                "reasoning": "You have 8 weak chapters. A structured 5-day revision plan is recommended.",
+                "message": "We've scheduled a comprehensive revision plan for you starting tomorrow."
+            },
+            {
+                "step": 6,
+                "dost": "practiceTest",
+                "parameters": {
+                    "difficulty": {
+                        "type": "string",
+                        "options": [
+                            "easy",
+                            "medium",
+                            "hard"
+                        ],
+                        "default": "easy"
+                    },
+                    "duration_minutes": 45,
+                    "paperPattern": {
+                        "type": "string",
+                        "options": [
+                            "Mains",
+                            "Advanced"
+                        ],
+                        "default": "Mains"
+                    }
+                },
+                "chapter": "Laws of Motion",
+                "question_ids": [],
+                "reasoning": "A final timed evaluation to measure your progress from this study session.",
+                "message": "Final check! Complete this 45-minute test to see how much you've improved."
+            }
+        ]
+    }
+}

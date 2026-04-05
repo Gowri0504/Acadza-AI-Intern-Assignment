@@ -1,0 +1,289 @@
+{
+    "analyze": {
+        "student_id": "STU_001",
+        "name": "Arjun Sharma",
+        "metrics": {
+            "avg_score": 34.14,
+            "accuracy": 76.88,
+            "total_time_spent_min": 302,
+            "consistency_index": 91.29,
+            "overall_trend": "improving"
+        },
+        "radar_chart": {
+            "labels": [
+                "Thermodynamics",
+                "Electrostatics",
+                "Kinematics",
+                "Optics",
+                "Organic Chemistry",
+                "Chemical Bonding",
+                "Laws of Motion"
+            ],
+            "values": [
+                25.0,
+                44.0,
+                25.33,
+                40.0,
+                40.83,
+                40.83,
+                49.0
+            ]
+        },
+        "weak_topics": [
+            {
+                "chapter": "Thermodynamics",
+                "avg_score": 25.0,
+                "avg_time_per_q": 192.67,
+                "consistency": 75.0,
+                "trend": "down"
+            },
+            {
+                "chapter": "Kinematics",
+                "avg_score": 25.33,
+                "avg_time_per_q": 192.0,
+                "consistency": 74.0,
+                "trend": "down"
+            },
+            {
+                "chapter": "Optics",
+                "avg_score": 40.0,
+                "avg_time_per_q": 190.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Organic Chemistry",
+                "avg_score": 40.83,
+                "avg_time_per_q": 196.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Chemical Bonding",
+                "avg_score": 40.83,
+                "avg_time_per_q": 196.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Electrostatics",
+                "avg_score": 44.0,
+                "avg_time_per_q": 177.0,
+                "consistency": 90.0,
+                "trend": "up"
+            },
+            {
+                "chapter": "Laws of Motion",
+                "avg_score": 49.0,
+                "avg_time_per_q": 162.0,
+                "consistency": 100,
+                "trend": "flat"
+            }
+        ],
+        "strong_topics": [],
+        "speed_issues": [
+            {
+                "chapter": "Organic Chemistry",
+                "avg_score": 40.83,
+                "avg_time_per_q": 196.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Chemical Bonding",
+                "avg_score": 40.83,
+                "avg_time_per_q": 196.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Thermodynamics",
+                "avg_score": 25.0,
+                "avg_time_per_q": 192.67,
+                "consistency": 75.0,
+                "trend": "down"
+            },
+            {
+                "chapter": "Kinematics",
+                "avg_score": 25.33,
+                "avg_time_per_q": 192.0,
+                "consistency": 74.0,
+                "trend": "down"
+            },
+            {
+                "chapter": "Optics",
+                "avg_score": 40.0,
+                "avg_time_per_q": 190.0,
+                "consistency": 100,
+                "trend": "flat"
+            }
+        ],
+        "all_chapters": [
+            {
+                "chapter": "Thermodynamics",
+                "avg_score": 25.0,
+                "avg_time_per_q": 192.67,
+                "consistency": 75.0,
+                "trend": "down"
+            },
+            {
+                "chapter": "Electrostatics",
+                "avg_score": 44.0,
+                "avg_time_per_q": 177.0,
+                "consistency": 90.0,
+                "trend": "up"
+            },
+            {
+                "chapter": "Kinematics",
+                "avg_score": 25.33,
+                "avg_time_per_q": 192.0,
+                "consistency": 74.0,
+                "trend": "down"
+            },
+            {
+                "chapter": "Optics",
+                "avg_score": 40.0,
+                "avg_time_per_q": 190.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Organic Chemistry",
+                "avg_score": 40.83,
+                "avg_time_per_q": 196.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Chemical Bonding",
+                "avg_score": 40.83,
+                "avg_time_per_q": 196.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Laws of Motion",
+                "avg_score": 49.0,
+                "avg_time_per_q": 162.0,
+                "consistency": 100,
+                "trend": "flat"
+            }
+        ]
+    },
+    "recommend": {
+        "student_id": "STU_001",
+        "plan_summary": "Targeted improvement plan focusing on Thermodynamics and overall improving.",
+        "steps": [
+            {
+                "step": 1,
+                "dost": "concept",
+                "parameters": {},
+                "chapter": "Thermodynamics",
+                "question_ids": [],
+                "reasoning": "Your score in Thermodynamics (25.0%) indicates a conceptual gap.",
+                "message": "Let's start by reinforcing your core understanding of Thermodynamics."
+            },
+            {
+                "step": 2,
+                "dost": "formula",
+                "parameters": {},
+                "chapter": "Thermodynamics",
+                "question_ids": [],
+                "reasoning": "Quick formula recall is essential for solving JEE/NEET problems efficiently.",
+                "message": "Review these key formulas for Thermodynamics before practice."
+            },
+            {
+                "step": 3,
+                "dost": "practiceAssignment",
+                "parameters": {
+                    "difficulty": "easy",
+                    "type_split": {
+                        "type": "object",
+                        "default": {
+                            "scq": 20,
+                            "mcq": 10,
+                            "integer": 5
+                        }
+                    }
+                },
+                "chapter": "Thermodynamics",
+                "question_ids": [
+                    "df3dbe4d58fed8a728e7eca0"
+                ],
+                "reasoning": "Building confidence with easy-level application is the next logical step.",
+                "message": "Now, apply your knowledge with these 5 selected questions from Thermodynamics."
+            },
+            {
+                "step": 4,
+                "dost": "clickingPower",
+                "parameters": {
+                    "total_questions": {
+                        "type": "integer",
+                        "default": 10
+                    }
+                },
+                "chapter": "Organic Chemistry",
+                "question_ids": [],
+                "reasoning": "You're struggling with both speed and accuracy in Organic Chemistry. Rapid drills will help.",
+                "message": "Speed Drill! Answer these questions as quickly as possible."
+            },
+            {
+                "step": 5,
+                "dost": "revision",
+                "parameters": {
+                    "alloted_days": 5,
+                    "strategy": {
+                        "type": "integer",
+                        "options": [
+                            1,
+                            2,
+                            3
+                        ],
+                        "default": 1
+                    },
+                    "daily_time_minutes": {
+                        "type": "integer",
+                        "default": 60
+                    }
+                },
+                "reasoning": "You have 7 weak chapters. A structured 5-day revision plan is recommended.",
+                "message": "We've scheduled a comprehensive revision plan for you starting tomorrow."
+            },
+            {
+                "step": 6,
+                "dost": "practiceTest",
+                "parameters": {
+                    "difficulty": {
+                        "type": "string",
+                        "options": [
+                            "easy",
+                            "medium",
+                            "hard"
+                        ],
+                        "default": "easy"
+                    },
+                    "duration_minutes": 45,
+                    "paperPattern": {
+                        "type": "string",
+                        "options": [
+                            "Mains",
+                            "Advanced"
+                        ],
+                        "default": "Mains"
+                    }
+                },
+                "chapter": "Thermodynamics",
+                "question_ids": [
+                    "3209eb83425ded302b2ac09d",
+                    "69b1a83bdceca5ffb82d2d59",
+                    "a880627df7ffe0297c79bfbd",
+                    "03cd10296eab17eafbe3370a",
+                    "df3dbe4d58fed8a728e7eca0",
+                    "c80621db212f19d54dbcecc2"
+                ],
+                "reasoning": "A final timed evaluation to measure your progress from this study session.",
+                "message": "Final check! Complete this 45-minute test to see how much you've improved."
+            }
+        ]
+    }
+}

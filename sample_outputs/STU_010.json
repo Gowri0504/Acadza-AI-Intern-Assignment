@@ -1,0 +1,205 @@
+{
+    "analyze": {
+        "student_id": "STU_010",
+        "name": "Neha Joshi",
+        "metrics": {
+            "avg_score": 87.1,
+            "accuracy": 100.0,
+            "total_time_spent_min": 358,
+            "consistency_index": 97.83,
+            "overall_trend": "stable"
+        },
+        "radar_chart": {
+            "labels": [
+                "Optics",
+                "Heat Transfer",
+                "Chemical Bonding",
+                "Organic Chemistry",
+                "Probability",
+                "Coordinate Geometry",
+                "Rotational Mechanics",
+                "Electrostatics",
+                "Physical Chemistry",
+                "Calculus"
+            ],
+            "values": [
+                80.83,
+                80.83,
+                97.0,
+                97.0,
+                92.0,
+                94.5,
+                65.0,
+                65.0,
+                97.0,
+                97.0
+            ]
+        },
+        "weak_topics": [],
+        "strong_topics": [
+            {
+                "chapter": "Chemical Bonding",
+                "avg_score": 97.0,
+                "avg_time_per_q": 88.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Organic Chemistry",
+                "avg_score": 97.0,
+                "avg_time_per_q": 88.5,
+                "consistency": 100.0,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Physical Chemistry",
+                "avg_score": 97.0,
+                "avg_time_per_q": 89.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Calculus",
+                "avg_score": 97.0,
+                "avg_time_per_q": 99.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Coordinate Geometry",
+                "avg_score": 94.5,
+                "avg_time_per_q": 89.0,
+                "consistency": 95.0,
+                "trend": "up"
+            },
+            {
+                "chapter": "Probability",
+                "avg_score": 92.0,
+                "avg_time_per_q": 79.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Optics",
+                "avg_score": 80.83,
+                "avg_time_per_q": 91.0,
+                "consistency": 91.67,
+                "trend": "down"
+            },
+            {
+                "chapter": "Heat Transfer",
+                "avg_score": 80.83,
+                "avg_time_per_q": 91.0,
+                "consistency": 91.67,
+                "trend": "down"
+            }
+        ],
+        "speed_issues": [],
+        "all_chapters": [
+            {
+                "chapter": "Optics",
+                "avg_score": 80.83,
+                "avg_time_per_q": 91.0,
+                "consistency": 91.67,
+                "trend": "down"
+            },
+            {
+                "chapter": "Heat Transfer",
+                "avg_score": 80.83,
+                "avg_time_per_q": 91.0,
+                "consistency": 91.67,
+                "trend": "down"
+            },
+            {
+                "chapter": "Chemical Bonding",
+                "avg_score": 97.0,
+                "avg_time_per_q": 88.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Organic Chemistry",
+                "avg_score": 97.0,
+                "avg_time_per_q": 88.5,
+                "consistency": 100.0,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Probability",
+                "avg_score": 92.0,
+                "avg_time_per_q": 79.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Coordinate Geometry",
+                "avg_score": 94.5,
+                "avg_time_per_q": 89.0,
+                "consistency": 95.0,
+                "trend": "up"
+            },
+            {
+                "chapter": "Rotational Mechanics",
+                "avg_score": 65.0,
+                "avg_time_per_q": 95.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Electrostatics",
+                "avg_score": 65.0,
+                "avg_time_per_q": 95.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Physical Chemistry",
+                "avg_score": 97.0,
+                "avg_time_per_q": 89.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Calculus",
+                "avg_score": 97.0,
+                "avg_time_per_q": 99.0,
+                "consistency": 100,
+                "trend": "flat"
+            }
+        ]
+    },
+    "recommend": {
+        "student_id": "STU_010",
+        "plan_summary": "Targeted improvement plan focusing on Overall and overall stable.",
+        "steps": [
+            {
+                "step": 1,
+                "dost": "practiceTest",
+                "parameters": {
+                    "difficulty": {
+                        "type": "string",
+                        "options": [
+                            "easy",
+                            "medium",
+                            "hard"
+                        ],
+                        "default": "easy"
+                    },
+                    "duration_minutes": 45,
+                    "paperPattern": {
+                        "type": "string",
+                        "options": [
+                            "Mains",
+                            "Advanced"
+                        ],
+                        "default": "Mains"
+                    }
+                },
+                "chapter": "Overall",
+                "question_ids": [],
+                "reasoning": "A final timed evaluation to measure your progress from this study session.",
+                "message": "Final check! Complete this 45-minute test to see how much you've improved."
+            }
+        ]
+    }
+}

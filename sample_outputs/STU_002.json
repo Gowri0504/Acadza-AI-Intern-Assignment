@@ -1,0 +1,294 @@
+{
+    "analyze": {
+        "student_id": "STU_002",
+        "name": "Priya Patel",
+        "metrics": {
+            "avg_score": 17.62,
+            "accuracy": 97.44,
+            "total_time_spent_min": 245,
+            "consistency_index": 98.67,
+            "overall_trend": "declining"
+        },
+        "radar_chart": {
+            "labels": [
+                "Thermodynamics",
+                "Laws of Motion",
+                "Physical Chemistry",
+                "Chemical Bonding",
+                "Coordinate Geometry",
+                "Algebra",
+                "Organic Chemistry",
+                "Heat Transfer",
+                "Rotational Mechanics",
+                "Calculus"
+            ],
+            "values": [
+                22.92,
+                22.92,
+                20.0,
+                20.0,
+                12.5,
+                10.0,
+                20.0,
+                12.5,
+                12.5,
+                15.0
+            ]
+        },
+        "weak_topics": [
+            {
+                "chapter": "Algebra",
+                "avg_score": 10.0,
+                "avg_time_per_q": 52.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Coordinate Geometry",
+                "avg_score": 12.5,
+                "avg_time_per_q": 61.0,
+                "consistency": 95.0,
+                "trend": "up"
+            },
+            {
+                "chapter": "Heat Transfer",
+                "avg_score": 12.5,
+                "avg_time_per_q": 63.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Rotational Mechanics",
+                "avg_score": 12.5,
+                "avg_time_per_q": 63.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Calculus",
+                "avg_score": 15.0,
+                "avg_time_per_q": 70.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Physical Chemistry",
+                "avg_score": 20.0,
+                "avg_time_per_q": 67.5,
+                "consistency": 100.0,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Chemical Bonding",
+                "avg_score": 20.0,
+                "avg_time_per_q": 68.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Organic Chemistry",
+                "avg_score": 20.0,
+                "avg_time_per_q": 67.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Thermodynamics",
+                "avg_score": 22.92,
+                "avg_time_per_q": 61.0,
+                "consistency": 95.83,
+                "trend": "down"
+            },
+            {
+                "chapter": "Laws of Motion",
+                "avg_score": 22.92,
+                "avg_time_per_q": 61.0,
+                "consistency": 95.83,
+                "trend": "down"
+            }
+        ],
+        "strong_topics": [],
+        "speed_issues": [],
+        "all_chapters": [
+            {
+                "chapter": "Thermodynamics",
+                "avg_score": 22.92,
+                "avg_time_per_q": 61.0,
+                "consistency": 95.83,
+                "trend": "down"
+            },
+            {
+                "chapter": "Laws of Motion",
+                "avg_score": 22.92,
+                "avg_time_per_q": 61.0,
+                "consistency": 95.83,
+                "trend": "down"
+            },
+            {
+                "chapter": "Physical Chemistry",
+                "avg_score": 20.0,
+                "avg_time_per_q": 67.5,
+                "consistency": 100.0,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Chemical Bonding",
+                "avg_score": 20.0,
+                "avg_time_per_q": 68.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Coordinate Geometry",
+                "avg_score": 12.5,
+                "avg_time_per_q": 61.0,
+                "consistency": 95.0,
+                "trend": "up"
+            },
+            {
+                "chapter": "Algebra",
+                "avg_score": 10.0,
+                "avg_time_per_q": 52.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Organic Chemistry",
+                "avg_score": 20.0,
+                "avg_time_per_q": 67.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Heat Transfer",
+                "avg_score": 12.5,
+                "avg_time_per_q": 63.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Rotational Mechanics",
+                "avg_score": 12.5,
+                "avg_time_per_q": 63.0,
+                "consistency": 100,
+                "trend": "flat"
+            },
+            {
+                "chapter": "Calculus",
+                "avg_score": 15.0,
+                "avg_time_per_q": 70.0,
+                "consistency": 100,
+                "trend": "flat"
+            }
+        ]
+    },
+    "recommend": {
+        "student_id": "STU_002",
+        "plan_summary": "Targeted improvement plan focusing on Algebra and overall declining.",
+        "steps": [
+            {
+                "step": 1,
+                "dost": "concept",
+                "parameters": {},
+                "chapter": "Algebra",
+                "question_ids": [],
+                "reasoning": "Your score in Algebra (10.0%) indicates a conceptual gap.",
+                "message": "Let's start by reinforcing your core understanding of Algebra."
+            },
+            {
+                "step": 2,
+                "dost": "formula",
+                "parameters": {},
+                "chapter": "Algebra",
+                "question_ids": [],
+                "reasoning": "Quick formula recall is essential for solving JEE/NEET problems efficiently.",
+                "message": "Review these key formulas for Algebra before practice."
+            },
+            {
+                "step": 3,
+                "dost": "practiceAssignment",
+                "parameters": {
+                    "difficulty": "easy",
+                    "type_split": {
+                        "type": "object",
+                        "default": {
+                            "scq": 20,
+                            "mcq": 10,
+                            "integer": 5
+                        }
+                    }
+                },
+                "chapter": "Algebra",
+                "question_ids": [
+                    "1ce27d9c44a2f1c82cd44f6f",
+                    "5e7143c50f200529df4648ed",
+                    "c29fe01a1a1c36e47214f0f1",
+                    "728da23ddbb6ab095be4e176",
+                    "cf84d09eca13bd8a8838ce76"
+                ],
+                "reasoning": "Building confidence with easy-level application is the next logical step.",
+                "message": "Now, apply your knowledge with these 5 selected questions from Algebra."
+            },
+            {
+                "step": 4,
+                "dost": "revision",
+                "parameters": {
+                    "alloted_days": 5,
+                    "strategy": {
+                        "type": "integer",
+                        "options": [
+                            1,
+                            2,
+                            3
+                        ],
+                        "default": 1
+                    },
+                    "daily_time_minutes": {
+                        "type": "integer",
+                        "default": 60
+                    }
+                },
+                "reasoning": "You have 10 weak chapters. A structured 5-day revision plan is recommended.",
+                "message": "We've scheduled a comprehensive revision plan for you starting tomorrow."
+            },
+            {
+                "step": 5,
+                "dost": "practiceTest",
+                "parameters": {
+                    "difficulty": {
+                        "type": "string",
+                        "options": [
+                            "easy",
+                            "medium",
+                            "hard"
+                        ],
+                        "default": "easy"
+                    },
+                    "duration_minutes": 45,
+                    "paperPattern": {
+                        "type": "string",
+                        "options": [
+                            "Mains",
+                            "Advanced"
+                        ],
+                        "default": "Mains"
+                    }
+                },
+                "chapter": "Algebra",
+                "question_ids": [
+                    "70b2f4fb5cff45671d08d766",
+                    "0020d33eb7986102163324c5",
+                    "c29fe01a1a1c36e47214f0f1",
+                    "5e7143c50f200529df4648ed",
+                    "cf84d09eca13bd8a8838ce76",
+                    "1ce27d9c44a2f1c82cd44f6f",
+                    "728da23ddbb6ab095be4e176",
+                    "75d3bed355ca5ebaabdda76c",
+                    "e831228e0f401c84ac0ffdc2"
+                ],
+                "reasoning": "A final timed evaluation to measure your progress from this study session.",
+                "message": "Final check! Complete this 45-minute test to see how much you've improved."
+            }
+        ]
+    }
+}

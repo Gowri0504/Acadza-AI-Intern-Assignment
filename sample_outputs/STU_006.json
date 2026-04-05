@@ -1,0 +1,193 @@
+{
+    "analyze": {
+        "student_id": "STU_006",
+        "name": "Ananya Reddy",
+        "metrics": {
+            "avg_score": 49.14,
+            "accuracy": 82.86,
+            "total_time_spent_min": 330,
+            "consistency_index": 94.33,
+            "overall_trend": "improving"
+        },
+        "radar_chart": {
+            "labels": [
+                "Kinematics",
+                "Heat Transfer",
+                "Organic Chemistry",
+                "Physical Chemistry",
+                "Electrostatics",
+                "Rotational Mechanics"
+            ],
+            "values": [
+                81.33,
+                81.5,
+                7.67,
+                7.67,
+                79.0,
+                77.0
+            ]
+        },
+        "weak_topics": [
+            {
+                "chapter": "Organic Chemistry",
+                "avg_score": 7.67,
+                "avg_time_per_q": 88.0,
+                "consistency": 94.0,
+                "trend": "up"
+            },
+            {
+                "chapter": "Physical Chemistry",
+                "avg_score": 7.67,
+                "avg_time_per_q": 88.0,
+                "consistency": 94.0,
+                "trend": "up"
+            }
+        ],
+        "strong_topics": [
+            {
+                "chapter": "Heat Transfer",
+                "avg_score": 81.5,
+                "avg_time_per_q": 107.0,
+                "consistency": 91.0,
+                "trend": "down"
+            },
+            {
+                "chapter": "Kinematics",
+                "avg_score": 81.33,
+                "avg_time_per_q": 101.33,
+                "consistency": 91.0,
+                "trend": "down"
+            },
+            {
+                "chapter": "Electrostatics",
+                "avg_score": 79.0,
+                "avg_time_per_q": 103.0,
+                "consistency": 96.0,
+                "trend": "up"
+            },
+            {
+                "chapter": "Rotational Mechanics",
+                "avg_score": 77.0,
+                "avg_time_per_q": 116.0,
+                "consistency": 100,
+                "trend": "flat"
+            }
+        ],
+        "speed_issues": [],
+        "all_chapters": [
+            {
+                "chapter": "Kinematics",
+                "avg_score": 81.33,
+                "avg_time_per_q": 101.33,
+                "consistency": 91.0,
+                "trend": "down"
+            },
+            {
+                "chapter": "Heat Transfer",
+                "avg_score": 81.5,
+                "avg_time_per_q": 107.0,
+                "consistency": 91.0,
+                "trend": "down"
+            },
+            {
+                "chapter": "Organic Chemistry",
+                "avg_score": 7.67,
+                "avg_time_per_q": 88.0,
+                "consistency": 94.0,
+                "trend": "up"
+            },
+            {
+                "chapter": "Physical Chemistry",
+                "avg_score": 7.67,
+                "avg_time_per_q": 88.0,
+                "consistency": 94.0,
+                "trend": "up"
+            },
+            {
+                "chapter": "Electrostatics",
+                "avg_score": 79.0,
+                "avg_time_per_q": 103.0,
+                "consistency": 96.0,
+                "trend": "up"
+            },
+            {
+                "chapter": "Rotational Mechanics",
+                "avg_score": 77.0,
+                "avg_time_per_q": 116.0,
+                "consistency": 100,
+                "trend": "flat"
+            }
+        ]
+    },
+    "recommend": {
+        "student_id": "STU_006",
+        "plan_summary": "Targeted improvement plan focusing on Organic Chemistry and overall improving.",
+        "steps": [
+            {
+                "step": 1,
+                "dost": "concept",
+                "parameters": {},
+                "chapter": "Organic Chemistry",
+                "question_ids": [],
+                "reasoning": "Your score in Organic Chemistry (7.67%) indicates a conceptual gap.",
+                "message": "Let's start by reinforcing your core understanding of Organic Chemistry."
+            },
+            {
+                "step": 2,
+                "dost": "formula",
+                "parameters": {},
+                "chapter": "Organic Chemistry",
+                "question_ids": [],
+                "reasoning": "Quick formula recall is essential for solving JEE/NEET problems efficiently.",
+                "message": "Review these key formulas for Organic Chemistry before practice."
+            },
+            {
+                "step": 3,
+                "dost": "practiceAssignment",
+                "parameters": {
+                    "difficulty": "easy",
+                    "type_split": {
+                        "type": "object",
+                        "default": {
+                            "scq": 20,
+                            "mcq": 10,
+                            "integer": 5
+                        }
+                    }
+                },
+                "chapter": "Organic Chemistry",
+                "question_ids": [],
+                "reasoning": "Building confidence with easy-level application is the next logical step.",
+                "message": "Now, apply your knowledge with these 5 selected questions from Organic Chemistry."
+            },
+            {
+                "step": 4,
+                "dost": "practiceTest",
+                "parameters": {
+                    "difficulty": {
+                        "type": "string",
+                        "options": [
+                            "easy",
+                            "medium",
+                            "hard"
+                        ],
+                        "default": "easy"
+                    },
+                    "duration_minutes": 45,
+                    "paperPattern": {
+                        "type": "string",
+                        "options": [
+                            "Mains",
+                            "Advanced"
+                        ],
+                        "default": "Mains"
+                    }
+                },
+                "chapter": "Organic Chemistry",
+                "question_ids": [],
+                "reasoning": "A final timed evaluation to measure your progress from this study session.",
+                "message": "Final check! Complete this 45-minute test to see how much you've improved."
+            }
+        ]
+    }
+}
